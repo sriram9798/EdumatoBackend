@@ -1,0 +1,18 @@
+{
+  "name": "edumato",
+  "version": "1.0.0",
+  "description": "This is the backend of edumato project",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "author": "Navaneeth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  }
+}
